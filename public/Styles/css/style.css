@@ -1,4 +1,10 @@
-@import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
+@font-face {
+  font-family: "Druk Wide Bold";
+  src: url("../../fonts/2206d6cc490084998d531e8c1b2cbb4a.ttf") format("truetype");
+  src: url("../../fonts/2206d6cc490084998d531e8c1b2cbb4a.woff") format("woff");
+  src: url("../../fonts/2206d6cc490084998d531e8c1b2cbb4a.eot") format("eot");
+  src: url("../../fonts/2206d6cc490084998d531e8c1b2cbb4a.woff2") format("woff2");
+}
 * {
   font-family: "Montserrat", sans-serif;
 }
@@ -133,7 +139,6 @@ nav .desktop-menu .desktop-account-container .desktop-account-name {
 }
 .container .swiper {
   width: 100%;
-  cursor: grab;
   padding: 0 0 0 30px;
 }
 .container .swiper .swiper-wrapper {
