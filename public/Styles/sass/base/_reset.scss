@@ -1,0 +1,57 @@
+@import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: $body-color;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  color: white;
+}
+
+.bg-overlay {
+  background-image: url("../../img/background.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.square {
+  position: absolute;
+  left: 55%;
+  top: 20%;
+  transform: scale(0.8);
+}
+
+.square:nth-child(2) {
+  left: 5%;
+  top: 25%;
+  transform: scale(0.5);
+}
+
+.square:nth-child(3) {
+  left: 10%;
+  top: 15%;
+  transform: scale(0.5);
+}
+
+.line {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  transform: scale(0.8);
+}
+
